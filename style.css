@@ -91,8 +91,29 @@ main {
   max-width: 50%;
 }
 
-.school span {
-  color: #A7B8BF;
+.skills .column ul, ul.job-description {
+  list-style-type: none;
+}
+
+.skills .column ul > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+.school, .job-title {
+  text-transform: capitalize;
+}
+
+.school span, .job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
 }
 
 footer {
