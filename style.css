@@ -25,6 +25,10 @@ header {
   padding: 2em;
   text-align: center;
   /*background-image: url('sciezka');*/
+  background-size: cover;
+  background-image: url('img/bg.jpg');
+  background-position: center;
+  color: white;
 }
 
 header section {
@@ -32,7 +36,8 @@ header section {
 }
 
 header img {
- 
+ max-width: 150px;
+ border-radius: 50%;
 }
 
 h1 {
