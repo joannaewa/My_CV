@@ -33,6 +33,7 @@ header {
 
 header section {
   margin: 0 auto;
+  max-width: 640px;
 }
 
 header img {
@@ -42,6 +43,7 @@ header img {
 
 h1 {
   margin: 1em 0;
+  text-transform: uppercase;
 }
 
 main {
