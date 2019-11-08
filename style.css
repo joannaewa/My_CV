@@ -19,6 +19,7 @@ section{
 
 header, main, footer {
   margin: 0 auto;
+  border-bottom: 5px;
 }
 
 header {
@@ -46,17 +47,35 @@ h1 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 main {
   max-width: 1140px;
 }
 
 .course {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .course .title {
+  font-weight: bold;
+  text-tranform: uppercase;
+  color: blue;
+  flex: 0 0 33.3%;
+  max-width: 33%
 }
 
 .course .descrition {
+  flex: 0 0 66.6%;
+  max-width: 66.6%
+}
+
+.course .descrition p {
+  padding-left: 1em;
 }
 
 .school span {
