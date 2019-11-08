@@ -118,4 +118,6 @@ ul.job-description li:before{
 
 footer {
  padding: 1em;
+ background-color: MediumSeaGreen;
+ text-align: right;
 }
