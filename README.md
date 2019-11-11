@@ -1,17 +1,8 @@
-# CV base
+My very first project: CV webpage.
 
-Podstawa projektu do pobrania. Pełen tutorial z opisem na blogu Fly Nerd: CV w HTML / CSS
+Technologies: HTML5, CSS3.
 
-### Zakres
+Based on tutorial from https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html
 
-Celem projektu jest wykorzystanie stworzenie strony www własnego CV za użyciem HTML i CSS.
+I plan to develop it a little bit more it in he future.
 
-### Z tym tutorialem:
-- wykorzystasz znaczniki HTML5
-- ostylujesz stronę za pomocą CSS
-- stworzysz prosty, czytelny i estetyczny layout
-- wykorzystasz flexbox do tworzenia układu strony
-- przystosujesz stronę pod urządzenia mobilne (RWD)
-
-### Wymagania
-Do wykonania zadań konieczna jest podstawowa znajomość HTML i CSS!
