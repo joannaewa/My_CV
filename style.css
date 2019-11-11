@@ -8,6 +8,15 @@ body {
   line-height: 1.8em;
 }
 
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
 article {
   padding:0 1em;
 }
@@ -26,9 +35,9 @@ header {
   text-align: center;
   /*background-image: url('sciezka');*/
   background-size: cover;
-  background-image: url('img/bg.jpg');
+  background-image: url('img/bgr1.jpeg');
   background-position: center;
-  color: white;
+  color: #FFF;;
 }
 
 header section {
@@ -39,6 +48,7 @@ header section {
 header img {
  max-width: 150px;
  border-radius: 50%;
+ border: 3px solid #FFF;
 }
 
 h1 {
@@ -59,16 +69,24 @@ main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+.course, .skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
 .course .title {
   font-weight: bold;
   text-tranform: uppercase;
-  color: blue;
+  color: #040B4F;
   flex: 0 0 33.3%;
   max-width: 33%;
 }
 
 .course .description {
-  flex: 0 0 66.6
+  flex: 0 0 66.6%;
   -ms-flex: 0 0 66.6%;
   max-width: 66.6;
 }
@@ -77,12 +95,6 @@ main section:not(:last-child) {
   padding-left: 1em;
 }
 
-.skills, .course {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
 
 .skills .column {
   -ms-flex: 0 0 50%%;
@@ -97,7 +109,7 @@ main section:not(:last-child) {
 .skills .column ul > li:before {
   content: "►";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #040B4F;
 }
 
 .school, .job-title {
@@ -112,22 +124,14 @@ main section:not(:last-child) {
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #040B4F;
 }
 
 footer {
- padding: 1em;
- background-color: MediumSeaGreen;
+ padding:  1em 1.5em;
+ background-color: #040B4F;
  text-align: right;
- color: white;
-}
-
-a {
-  color: white;
-}
-
-a:hover {
-  opacity: 0.5;
+ color: #FFF;
 }
 
 @media only screen and (max-width: 768px) {
