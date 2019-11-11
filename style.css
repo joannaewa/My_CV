@@ -19,7 +19,6 @@ section{
 
 header, main, footer {
   margin: 0 auto;
-  border-bottom: 5px;
 }
 
 header {
@@ -56,9 +55,8 @@ main {
   max-width: 1140px;
 }
 
-.course {
-    display: flex;
-    flex-wrap: wrap;
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
 }
 
 .course .title {
@@ -66,19 +64,20 @@ main {
   text-tranform: uppercase;
   color: blue;
   flex: 0 0 33.3%;
-  max-width: 33%
+  max-width: 33%;
 }
 
-.course .descrition {
-  flex: 0 0 66.6%;
-  max-width: 66.6%
+.course .description {
+  flex: 0 0 66.6
+  -ms-flex: 0 0 66.6%;
+  max-width: 66.6;
 }
 
-.course .descrition p {
+.course .description p {
   padding-left: 1em;
 }
 
-.skills {
+.skills, .course {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -121,4 +120,35 @@ footer {
  background-color: MediumSeaGreen;
  text-align: right;
  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
 }
