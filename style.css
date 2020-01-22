@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
@@ -8,6 +8,11 @@ body {
   line-height: 1.8em;
 }
 
+.linkintext {
+  color: #040B4F;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
 a {
   color: #FFF;
   text-decoration: none;
@@ -37,7 +42,7 @@ header {
   background-size: cover;
   background-image: url('img/bgr1.jpeg');
   background-position: center;
-  color: #FFF;;
+  color: #FFF;
 }
 
 header section {
