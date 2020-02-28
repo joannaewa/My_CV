@@ -6,3 +6,5 @@ Based on tutorial from https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-kro
 
 I plan to develop it a little bit more it in the future.
 
+Live: https://joannaewa.github.io/My_CV/
+
